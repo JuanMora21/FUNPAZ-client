@@ -1,0 +1,44 @@
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    margin: 0 10px;
+    color: #0D3290;
+  }
+  
+  .nav-button {
+    margin: 0 10px;
+    padding: 0.5rem 1rem;
+    border: 2px solid #0D3290;
+    background-color: transparent;
+    color: #0D3290;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  .nav-button:hover {
+    background-color: #0D3290;
+    color: #ffffff;
+  }
+
+  .navbar-brand {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    height: 70px; /* Ajusta la altura según tus necesidades */
+    object-fit: contain;
+  }
+  
+  
+  .nav-item:last-child .nav-link {
+    margin-right: 0;
+  }
+  
+  /* Centrar elementos del medio */
+  .me-auto {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+
+.container {
+  background-color: #BBD3F5;
+  background-image: url(../../../assets/Media/Login/circuloAzul.png);
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  background-position-x: right;
+  background-position-y: center;
+  max-width: auto;
+  border-radius: 2.5rem;
+  padding: 2rem;
+  margin:auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.login-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  border-radius: 2.5rem;
+  border-radius: 2.5rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.input-group-text i {
+  color: #9B9B9B;
+}
+
+.form-control {
+  border-radius: 2.5rem;
+  border: 1px solid #9B9B9B;
+  padding-left: 40px;
+}
+
+.form-check-input {
+  border-radius: 2.5rem;
+  margin-right: 10px;
+  align-content: center;
+}
+
+.forgot-password-link {
+  color: #007BFF;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+  border: none;
+  border-radius: 2.5rem;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.login-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 10px 10px 0;
+}
+
+.login-title {
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0D3290;
+}
+
+.form-control,
+.form-check-label,
+.forgot-password-link {
+  font-family: 'Jost', sans-serif;
+  color: #0D3290;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.forgot-password-link {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.form-check-label,
+.forgot-password-link {
+  font-size: 16px;
+}
